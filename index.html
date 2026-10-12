@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Case File</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header><div class="stamp">CASE FILE</div><div id="caseTitle"></div><div id="strikes"></div></header>
+<main id="view"></main>
+<nav id="tabs">
+<button data-tab="locker">🗂️<span>Evidence</span></button>
+<button data-tab="board">🧷<span>Suspects</span></button>
+<button data-tab="timeline">⏱️<span>Timeline</span></button>
+<button data-tab="notes">📓<span>Notebook</span></button>
+<button data-tab="accuse">⚖️<span>Accuse</span></button>
+<button data-tab="shop">🛒<span>Cases</span></button>
+</nav>
+<div id="modal" hidden><div class="modal-bar"><button id="mClose">✕ Close</button><button id="mPin">📌 Pin selection</button><button id="mDone"></button></div><div id="mBody" class="paper"></div></div>
+<div id="toast" hidden></div>
+<script src="js/case1.js"></script><script src="js/game.js"></script>
+</body></html>
